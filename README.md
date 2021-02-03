@@ -7,7 +7,7 @@ Hone your skills in HTML & CSS by building a page that is based on a mock up!
 ## Prerequisites
 
 - HTML & CSS
-- Flexbox and Grid
+- Flexbox 
 
 ## Instructions
 
