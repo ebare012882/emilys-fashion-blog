@@ -38,7 +38,7 @@ Faithfully reproduce the mockup in HTML & CSS.
 ### Build Your HTML
 
 1. Create your html boilerplate in the `index.html` file.
-1. Add a new file called `styles.css` and link it to the HTML file.
+1. Add a new file called `style.css` and link it to the HTML file.
 1. In the body of your HTML, use [`header`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header), [`main`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main), and [`footer`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) tags to clearly define the different parts of the page.
 1. Use an `h1` tag for the site title and an `h2` for the subtitle inside the page header.
 1. Use [`nav`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) tags inside the page header to create an accessible navigation. Follow the example in the [W3C Web Accessibility Initiative (WAI) Guidelines](https://www.w3.org/WAI/tips/developing/#provide-meaning-for-non-standard-interactive-elements) to format your navigation:
