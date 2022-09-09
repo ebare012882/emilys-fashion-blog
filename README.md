@@ -47,7 +47,7 @@ _Make sure to add and commit your changes when you've got the html done!_
 ### Style Your Page
 
 1. Use a [`border`](https://www.w3schools.com/css/css_border.asp) only on the left side of the page's `html` element. It should have a width of `5px` and a color of `lightgray`.
-1. Set the `body` element's `min-height` to be at least 100% of the [viewport height](https://alligator.io/css/viewport-units/). Also, use the `font-family` property to set the entire page to use `sans-serif` fonts.
+1. Set the `body` element's `min-height` to be at least 100% of the [viewport height](https://css-tricks.com/fun-viewport-units/). Also, use the `font-family` property to set the entire page to use `sans-serif` fonts.
 1. Give the `body` a `max-width` of `1000px` and center it on the page with the margin auto technique.
 1. The border is too close to our text and we've got an issue with [margin-collapse](https://medium.com/@joseph0crick/margin-collapse-in-css-what-why-and-how-328c10e37ca0) at the top of the page! Add `padding` to the `header`, `main` and `footer` elements of `1rem` on the top and bottom and `2rem` on the left and right to fix these issues.
 1. For the `h1` on the page we want the color to be `tomato`.
