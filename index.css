@@ -1,27 +1,41 @@
+html {
+    /* https://fonts.google.com/ */ 
+    /* need to figure out how to link that in order to get the  correct font*/
+}
+
+
 body {
     border-left: solid lightgrey 5px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10px;
-    padding-left: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
     justify-content: left;
+    margin-top: 50px;
 }
 
 h1 {
     color: rgb(207 79 66);
+    font-size: 50px;
 }
 
 ul {
     display: flex;
-    text-decoration-color: lightgrey;
+    color: grey;
     text-decoration: underline;
-    margin-left: 10px;
-    padding-left: 10px;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
 }
 
 nav {
     display: flex;
+    color: grey;
 }
 
 h4 {
     color: grey;
+}
+
+h3 {
+    colors: grey;
 }
