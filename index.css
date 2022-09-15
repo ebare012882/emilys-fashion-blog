@@ -1,15 +1,18 @@
 body {
     border-left: solid lightgrey 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
-    padding-left: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-left: 50px;
+    padding-left: 50px;
     justify-content: left;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-family: 'Poiret One', cursive;
+    min-height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 h1 {
-    color: rgb(207 79 66);
+    color: tomato;
     font-size: 50px;
 }
 
@@ -25,6 +28,12 @@ ul {
 a {
     color: grey;
     padding: 15px;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 2rem;
 }
 
 nav {
@@ -44,8 +53,18 @@ h3 {
     color: grey;
 }
 
+h5 {
+    color: tomato;
+    justify-content: right;
+    font-size: 20px;
+}
+
 #bottomnav {
     /* margin-bottom: 20px; */
     /* tried to put more space between the top of this and the bottom of h4 but this didn't work */
      /* figured out that in the html, this element was within the bottomnav div, so I moved it down a line */
+}
+
+img {
+    width: 100%;
 }
