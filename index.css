@@ -55,8 +55,10 @@ h3 {
 
 h5 {
     color: tomato;
-    justify-content: right;
     font-size: 20px;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
 }
 
 #bottomnav {
