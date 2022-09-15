@@ -1,9 +1,3 @@
-html {
-    /* https://fonts.google.com/ */ 
-    /* need to figure out how to link that in order to get the  correct font*/
-}
-
-
 body {
     border-left: solid lightgrey 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,6 +5,7 @@ body {
     padding-left: 20px;
     justify-content: left;
     margin-top: 50px;
+    font-family: 'Poiret One', cursive;
 }
 
 h1 {
@@ -29,6 +24,7 @@ ul {
 
 a {
     color: grey;
+    padding: 15px;
 }
 
 nav {
@@ -38,8 +34,18 @@ nav {
 
 h4 {
     color: grey;
+    /* margin-top: 20px; */
+    /* tried to put more space between the bottom nav and this but it didn't work */
+    /* figured out that in the html, this element was within the bottomnav div, so I moved it down a line */
+    
 }
 
 h3 {
-    colors: grey;
+    color: grey;
+}
+
+#bottomnav {
+    /* margin-bottom: 20px; */
+    /* tried to put more space between the top of this and the bottom of h4 but this didn't work */
+     /* figured out that in the html, this element was within the bottomnav div, so I moved it down a line */
 }
